@@ -19,7 +19,10 @@ button.dm-button.new span.dm-new,
 ul#global-actions li.profile i.nav-new,
 
 /* I don't email tweets. */
-li.more-tweet-actions
+li.more-tweet-actions,
+
+/* Larry in the nav bar always bugged me. */
+h1.bird-topbar-etched
 {
   display: none !important;
 }
