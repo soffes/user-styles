@@ -1,0 +1,8 @@
+/* twitter.com */
+
+div.module.wtf-module,
+div.module.trends,
+div.global-nav li.topics
+{
+  display: none !important;
+}

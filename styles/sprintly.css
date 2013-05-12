@@ -1,0 +1,7 @@
+/* sprint.ly */
+
+div#pageGuideToggle,
+div#support_menu,
+div#footer {
+  display: none !important;
+}
