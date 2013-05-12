@@ -1,8 +1,25 @@
-/* twitter.com */
+/*
+Name: Twitter
+URL: twitter.com
+*/
 
+/* Hide who to follow */
 div.module.wtf-module,
+
+/* Hide trends since they are always irrelevant to me */
 div.module.trends,
-div.global-nav li.topics
+
+/* Hide discover since I never want to see that */
+div.global-nav li.topics,
+
+/* Hide the unread indicator on the DMs button */
+button.dm-button.new span.dm-new
 {
   display: none !important;
+}
+
+/* Make the unread DMs button look like the normal one */
+button.dm-button.new {
+  width: 42px !important;
+  padding: 5px 10px !important;
 }

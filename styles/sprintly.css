@@ -1,7 +1,15 @@
-/* sprint.ly */
+/*
+Name: Sprintly
+URL: sprint.ly
+*/
 
+/* Hide the page guide. No one ever wants this blocking their crap. */
 div#pageGuideToggle,
+
+/* Same for the support menu. I have only ever used it to ask them to remove the support menu. You can guess how that went. */
 div#support_menu,
+
+/* Hide their enormous footer. I want to see people running… well I never want that. */
 div#footer {
   display: none !important;
 }
