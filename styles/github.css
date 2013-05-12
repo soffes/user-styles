@@ -1,0 +1,9 @@
+/*
+Name: GitHub
+URL: https://github.com/*
+*/
+
+/* Hide that giant footer. */
+div#footer, div#footer-push {
+  display: none !important;
+}
