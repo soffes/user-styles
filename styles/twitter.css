@@ -1,6 +1,6 @@
 /*
 Name: Twitter
-URL: twitter.com
+URL: https://twitter.com/*
 */
 
 /* Hide who to follow */
@@ -10,10 +10,16 @@ div.module.wtf-module,
 div.module.trends,
 
 /* Hide discover since I never want to see that */
-div.global-nav li.topics,
+ul#global-actions li.topics,
 
 /* Hide the unread indicator on the DMs button */
-button.dm-button.new span.dm-new
+button.dm-button.new span.dm-new,
+
+/* Hide unread indicator on Me tab. */
+ul#global-actions li.profile i.nav-new,
+
+/* I don't email tweets. */
+li.more-tweet-actions
 {
   display: none !important;
 }

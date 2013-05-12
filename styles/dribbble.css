@@ -1,0 +1,21 @@
+/*
+Name: Dribbble
+URL: http://dribbble.com/*
+*/
+
+/* Get rid of that giant footer with links I don't care about. */
+div#footer,
+
+/* Even more footer. */
+div.secondary.extra.group,
+
+/* That "Safari doesn't do this any more" page is something I tend to avoid. */
+a.rss,
+
+/* Sorry Dribbble. I would gladly pay more than what I pay for Pro to get rid of this. */
+div.ad.thedeck,
+
+/* Got it. */
+p#view-comments-help {
+  display: none !important;
+}
